@@ -9,7 +9,7 @@ import Range from '/ckeditor5/engine/model/range.js';
 import Selection from '/ckeditor5/engine/model/selection.js';
 import CKEditorError from '/ckeditor5/utils/ckeditorerror.js';
 
-import ModelTestEditor from '/tests/ckeditor5/_utils/modeltesteditor.js';
+import ModelTestEditor from '/tests/core/_utils/modeltesteditor.js';
 
 describe( 'Graphemes', () => {
 	let editor, doc, root, graphemes;

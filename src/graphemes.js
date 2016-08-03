@@ -4,7 +4,7 @@
  */
 
 import findGraphemeBreak from './findgraphemebreak.js';
-import Feature from '../feature.js';
+import Feature from '../core/feature.js';
 import Position from '../engine/model/position.js';
 import CKEditorError from '../utils/ckeditorerror.js';
 
@@ -18,6 +18,7 @@ import CKEditorError from '../utils/ckeditorerror.js';
  * that throws an error if document selection is placed inside a grapheme.
  *
  * @memberOf graphemes
+ * @extends core.Feature
  */
 export default class Graphemes extends Feature {
 	init() {
