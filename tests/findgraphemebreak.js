@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.md.
  */
 
-import findGraphemeBreak from '/ckeditor5/graphemes/findgraphemebreak.js';
+import findGraphemeBreak from 'ckeditor5/graphemes/findgraphemebreak.js';
 
 describe( 'findGraphemeBreak', () => {
 	it( 'should return first break after given offset', () => {
